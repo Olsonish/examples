@@ -1,0 +1,10 @@
+.appContainer {
+  padding: 1em 3em;
+}
+
+.appTitle {
+  margin: .5em 0 1em 0;
+  font-size: 3em;
+  color: rgb(90,90,120);
+  text-transform: uppercase;
+}

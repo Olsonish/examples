@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: rgba(60,60,75);
+  font-family: 'Source Sans Pro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

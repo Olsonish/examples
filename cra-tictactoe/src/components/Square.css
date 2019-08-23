@@ -1,0 +1,30 @@
+.Square {
+  background: rgba(0,0,0,.2);
+  width: 100%;
+  margin: 0 0 1em 0;
+  position: relative;
+}
+.Square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.Square.empty {
+  cursor: pointer;
+}
+.Square.winner {
+  color: green;
+}
+
+.valueArea {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+}
+.valueIcon {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,38 @@
+
+.actionCol {
+  text-align: right;
+}
+.actionCol svg {
+  width: 24px;
+  height: 24px;
+}
+
+.todoItem {
+  margin: 5px 0;
+  padding: 5px 0 5px 5px;
+  border: 1px solid rgba(0,0,0,.05);
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+.todoItem:hover {
+  border: 1px solid royalblue;
+  color: royalblue;
+}
+
+.todoItem.done {
+  border: 1px solid green;
+  color: green;
+}
+
+.todoItem .doneButton {
+  color: rgba(0,0,0,1);
+  visibility: hidden;
+}
+.todoItem:hover .doneButton {
+  color: royalblue;
+}
+.todoItem.done .doneButton {
+  color: green;
+  visibility: visible;
+}
